@@ -1,0 +1,130 @@
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100dvh;
+    background: var(--gradient-color); 
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 0 19%;
+    color: white;
+}
+
+.hero-text h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hero-text h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 35px;
+}
+
+.hero-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.hero-img img{
+    width: 500px;
+    height: auto;
+}
+
+.hero-buy{
+    display: inline-block;
+    background: var(--tint-color);
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .55s ease;
+    color: white;
+}
+
+.hero-buy.second{
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.hero-buy.second i{
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+  .hero-buy:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+  }
+}
+
+@media (max-width: 1460px) {
+    .hero {
+      padding: 0 12%;
+      transition: 0.2s;
+    }
+  
+    .hero-img img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .hero-text h1 {
+      font-size: 100px;
+      margin: 0 0 30px;
+      font-weight: 700;
+    }
+  }
+  
+  @media (max-width: 1195px) {
+    .hero {
+      padding: 0 3%;
+      transition: 0.2s;
+      height: 100%;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+    }
+  
+    .hero-text {
+      padding-top: 115px;
+    }
+  
+    .hero-img {
+      text-align: center;
+    }
+  
+    .hero-img img {
+      width: 560px;
+      height: auto;
+    }
+
+    .hero-buy.second {
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .hero-img img {
+      width: 100%;
+      height: auto;
+    }
+  }

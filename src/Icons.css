@@ -1,0 +1,64 @@
+.icons {
+  position: absolute;
+  top: 50%;
+  padding: 0 9%;
+  transform: translateY(-50%);
+}
+
+.icons i {
+  display: block;
+  margin: 26px 0;
+  font-size: 24px;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 6%;
+  right: 9%;
+}
+
+.scroll-down i {
+  display: block;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+  background: var(--tint-color);
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+
+
+
+@media (min-width: 1024px) {
+  .scroll-down i:hover {
+    transform: translateY(-5px);
+  }
+
+  .icons i:hover {
+    color: var(--tint-color);
+    transform: translateY(-5px);
+  }
+}
+
+@media (max-width: 1535px) {
+  .icons {
+    padding: 0 3%;
+    transition: 0.2s;
+  }
+  .scroll-down {
+    right: 3%;
+    transition: 0.2s;
+  }
+}
+
+@media (max-width: 1195px) {
+  .icons {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+#error-page {
+    text-align: center;
+    padding-top: 50px;
+    background: var(--gradient-color);
+    height: 100vh;
+  }
+  
+  #error-page h1 {
+    font-size: 3em;
+    color: #e74c3c; /* Red color for emphasis */
+  }
+  
+  #error-page p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #error-page i {
+    color: #e74c3c; /* Red color for emphasis */
+    font-style: normal;
+  }
+
+  .link {
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 20px;
+  }
