@@ -16,25 +16,22 @@ const router = createBrowserRouter([
     path: "/bellamy-project/",
     element: <LandingPage />,
     errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/bellamy-project/despre",
-        element: <About />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/bellamy-project/contacte",
-        element: <Contacte />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/bellamy-project/lucrari",
-        element: <Lucrari />,
-        errorElement: <ErrorPage />,
-      },
-    ]
   },
-  
+  {
+    path: "/bellamy-project/despre",
+    element: <About />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/bellamy-project/contacte",
+    element: <Contacte />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/bellamy-project/lucrari",
+    element: <Lucrari />,
+    errorElement: <ErrorPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
