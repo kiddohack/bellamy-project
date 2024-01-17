@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
-  createBrowserRouter,
   HashRouter,
-  RouterProvider,
+  RouterProvider
 } from "react-router-dom"
 import './index.css'
 import About from './pages/About/AboutPage.jsx'
@@ -12,7 +11,7 @@ import ErrorPage from './pages/Error/ErrorPage.jsx'
 import LandingPage from './pages/LandingPage.jsx'
 import Lucrari from './pages/Works/WorksPage.jsx'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <LandingPage />,
