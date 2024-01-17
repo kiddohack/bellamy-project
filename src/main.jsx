@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import LandingPage from './pages/LandingPage.jsx'
-import ErrorPage from './pages/Error/ErrorPage.jsx'
-import Contacte from './pages/Contacts/ContactsPage.jsx'
-import Lucrari from './pages/Works/WorksPage.jsx'
-import About from './pages/About/AboutPage.jsx'
-import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"
+import './index.css'
+import About from './pages/About/AboutPage.jsx'
+import Contacte from './pages/Contacts/ContactsPage.jsx'
+import ErrorPage from './pages/Error/ErrorPage.jsx'
+import LandingPage from './pages/LandingPage.jsx'
+import Lucrari from './pages/Works/WorksPage.jsx'
 
 const router = createBrowserRouter([
   {
