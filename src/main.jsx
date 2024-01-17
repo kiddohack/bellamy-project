@@ -13,22 +13,22 @@ import Lucrari from './pages/Works/WorksPage.jsx'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/bellamy-project/",
     element: <LandingPage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/despre",
+    path: "/bellamy-project/despre",
     element: <About />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/contacte",
+    path: "/bellamy-project/contacte",
     element: <Contacte />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/lucrari",
+    path: "/bellamy-project/lucrari",
     element: <Lucrari />,
     errorElement: <ErrorPage />,
   },
