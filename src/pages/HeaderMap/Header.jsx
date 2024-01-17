@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
-import './Header.css'
-import {Link} from "react-router-dom"
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import './Header.css';
 
 function Header () {
 
@@ -8,7 +8,7 @@ function Header () {
 
     return (
         <header className='container'>
-            <Link to={"/"} className='logo' >Bellamy Eco</Link>
+            <Link to={"/bellamy-project/"} className='logo' >Bellamy Eco</Link>
 
             <ul className={`navlist ${open ? 'active' : 'inactive'}`}>
                 <MenuItem text={"Acasă"} link={"/bellamy-project/"}/>
