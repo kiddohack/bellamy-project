@@ -8,7 +8,7 @@ function Header () {
 
     return (
         <header className='container'>
-            <Link to={"/bellamy-project/"} className='logo' >Bellamy Eco</Link>
+            {/* <Link to={"/bellamy-project/"} className='logo' >Bellamy Eco</Link> */}
 
             <ul className={`navlist ${open ? 'active' : 'inactive'}`}>
                 <MenuItem text={"Acasă"} link={"/bellamy-project/"}/>
