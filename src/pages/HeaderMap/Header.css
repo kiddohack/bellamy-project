@@ -6,7 +6,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 33px 9%;
   background: transparent;
   -webkit-backdrop-filter: blur(7px);
