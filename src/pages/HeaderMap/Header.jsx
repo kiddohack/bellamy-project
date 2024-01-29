@@ -17,6 +17,8 @@ function Header () {
                 <MenuItem text={"Contacte"} link={"/bellamy-project/contacte"} />
             </ul>
 
+            <div className='menu--text'>Menu</div>
+
             <div className={`bx ${open ? 'bx-x' : 'bx-menu'}`} id="menu-icon" onClick={() => {setOpen(!open)}}></div>
         </header>
     )

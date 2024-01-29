@@ -5,7 +5,7 @@
 }
 
 .works--body {
-    padding: 150px 10% 50px;
+    padding: 100px 10% 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -77,7 +77,7 @@
     }
 
     .works--body {
-        padding: 150px 5% 50px;
+        padding: 100px 5% 50px;
     }
 
     .products--box {

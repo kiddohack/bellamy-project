@@ -36,6 +36,10 @@
   border-bottom: 2px solid white;
 }
 
+.menu--text {
+  display: none;
+}
+
 #menu-icon {
   color: white;
   font-size: 35px;
@@ -55,6 +59,13 @@
 @media (max-width: 990px) {
   #menu-icon {
     display: block;
+  }
+
+  .menu--text {
+    display: flex;
+    color: white;
+    padding-right: 15px;
+    font-size: 1.2em;
   }
   
   .navlist {

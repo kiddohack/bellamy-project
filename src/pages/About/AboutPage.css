@@ -5,7 +5,7 @@
 }
 
 .about--body {
-    padding: 150px 10% 50px;
+    padding: 100px 10% 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@
 
 @media (max-width: 600px) {
     .about--body {
-        padding: 150px 5% 50px;
+        padding: 100px 5% 50px;
     }
 
     .about--h2 {
