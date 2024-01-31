@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import './WorksPage.css'
+import React, { useEffect, useState } from 'react'
+import img1 from "../../assets/IMG_1715.webp"
+import img2 from '../../assets/IMG_1716.webp'
+import img3 from '../../assets/IMG_1717.webp'
 import Header from '../HeaderMap/Header.jsx'
-import img1 from "../../assets/IMG_1715.png"
-import img2 from '../../assets/IMG_1716.png'
-import img3 from '../../assets/IMG_1717.png'
+import './WorksPage.css'
 
 export default function Lucrari() {
     return (

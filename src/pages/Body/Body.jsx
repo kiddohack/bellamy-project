@@ -1,6 +1,6 @@
 import React from "react";
 import "./Body.css";
-import logo from "../../assets/main.png"
+import logo from "../../assets/main.webp"
 import {Link} from 'react-router-dom'
 
 function Section() {
