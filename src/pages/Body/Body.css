@@ -39,6 +39,7 @@
 }
 
 .hero-img img{
+    padding-top: 50px;
     width: 500px;
     height: auto;
 }
