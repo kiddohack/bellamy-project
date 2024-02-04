@@ -39,9 +39,10 @@
 }
 
 .hero-img img{
-    padding-top: 50px;
+    /* padding-top: 50px;
     width: 500px;
-    height: auto;
+    height: auto; */
+    height: 100%;
 }
 
 .hero-buy{
